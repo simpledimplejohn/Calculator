@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <form id="calculate">
+            <div class="form-group">
+                <label for="calculate1">1st number:</label>
+                <input id="calculate1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="calculate2">2nd number:</label>
+                <input id="calculate2" class="form-control" type="text">
+            </div>
+            <select id='operation' class="form-control">
+              <option value="addition">Addition</option>
+              <option value="subtraction">Subtraction</option>
+              <option value="multiplication">Multiplication</option>
+              <option value="division">Division</option>
+
+            </select>
+            <button type="submit" class="btn">Calculate!</button>
+        </form>
+        <div id="output">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
